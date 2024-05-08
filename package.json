@@ -1,0 +1,34 @@
+{
+  "name": "adventure_game-hh88",
+  "version": "1.0.1",
+  "description": "This is a very intresting Adventure_game",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "keywords": [
+  "Combat",
+  "Attacks",
+  "Fighting",
+  "Health bars",
+  "Single-player campaign",
+  "Boss fights",
+  "Power-ups",
+  "Weaponry",
+  "Character selection",
+  "Character customization",
+  "Story mode",
+  "battle",
+  "Fighting game mechanics"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hiba M.Dawood",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
