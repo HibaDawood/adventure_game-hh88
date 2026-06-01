@@ -1,26 +1,36 @@
-# adventure_game-hh88
-<h1 align="center">Hi 👋, I'm Hiba M.Dawood</h1>
-<h3 align="center">A passionate full-stack developer from Pakistan.</h3>
+# ⚔️ CLI Text-Based Adventure Game
 
+An interactive, command-line role-playing game (RPG) built with TypeScript and Node.js using Object-Oriented Programming (OOP) principles. Players battle against different mythical opponents in a turn-based survival match.
 
-<p align="left"> <img align="right" alt="coding" width="350" src="https://78.media.tumblr.com/921ad972a356bbcea6e836dcf7efa14c/tumblr_pa0arsF7Og1vqknjlo1_640.gif" alt="hibadawood" /> </p>
+---
 
-- 🌱 I’m currently learning **cloud Applied generative AI**
+## ✨ Features
 
-- 👨‍💻 All of my projects are available at [https://github.com/HibaDawood](https://github.com/HibaDawood)
+* **Character Customization:** Allows players to input their custom name and choose from three unique opponents: Skeleton, Zombie, or Assassin.
+* **Dynamic Turn-Based Combat:** Uses a randomized luck factor (`Math.random()`) to determine whether the player or the opponent takes damage during an attack.
+* **In-Game Mechanics:**
+  * **Attack:** Engages the enemy, decreasing fuel (health) by 25 points based on combat outcomes.
+  * **Drink Potion:** Restores the player's fuel back to 100% instantly.
+  * **Run:** Permits tactical retreats to end the game immediately.
+* **Vibrant Visual Feedback:** Uses `chalk` to color-code health updates, winning achievements, and game-over states.
 
-- 💬 Ask me about **Scalable, creative, cloud-based AI solution.**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/hiba m dawood" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hiba m dawood" height="30" width="40" /></a>
-</p>
+## 🛠️ Tech Stack
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+* **Language:** TypeScript / Node.js
+* **Dependencies:** `inquirer` (Interactive CLI menus), `chalk` (Terminal text styling)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hibadawood&show_icons=true&locale=en&layout=compact" alt="hibadawood" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hibadawood&show_icons=true&locale=en" alt="hibadawood" /></p>
+## 🚀 How to Run & Use
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hibadawood&" alt="hibadawood" /></p
+1. Clone or download this repository locally.
+2. Open your terminal in the project folder and install the required packages:
+   ```bash
+   npm install
+
+3. Launch the game using the following command:
+
+```bash
+npx tsc && node index.js
