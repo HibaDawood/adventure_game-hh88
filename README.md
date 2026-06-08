@@ -1,4 +1,5 @@
 # ⚔️ CLI Text-Based Adventure Game
+[![npm version](https://img.shields.io/npm/v/adventure_game-hh88.svg?style=flat-square)](https://www.npmjs.com/package/adventure_game-hh88)
 
 An interactive, command-line role-playing game (RPG) built with TypeScript and Node.js using Object-Oriented Programming (OOP) principles. Players battle against different mythical opponents in a turn-based survival match.
 
@@ -22,15 +23,9 @@ An interactive, command-line role-playing game (RPG) built with TypeScript and N
 * **Dependencies:** `inquirer` (Interactive CLI menus), `chalk` (Terminal text styling)
 
 ---
+### 🚀 How to Run & Use
 
-## 🚀 How to Run & Use
-
-1. Clone or download this repository locally.
-2. Open your terminal in the project folder and install the required packages:
-   ```bash
-   npm install
-
-3. Launch the game using the following command:
+Run this application directly in your terminal using `npx` (No installation required):
 
 ```bash
-npx tsc && node index.js
+npx adventure_game-hh88
